@@ -1,4 +1,7 @@
 # museo-php
-gestione di inserimento opere, visualizzazione delle opere e visualizzazione numero di opere di tutti gli autori
+<p>La pagina mostra le opere di un'autore scelto attraverso una casella di scelta</p>
+<p>Inoltre permette l'aggiunta al database di un'opera</p>
 
-<h1>Inserimento delle opere</h1>
+<h3>Inserimento delle opere</h3>
+<p>DML per inserire la nuova opera</p>
+<p>insert into opera (id_opera, nome_opera, tipo_opera, id_artista) values (0, '{$nome}' , '{$tipo}', '{$id}')</p>
