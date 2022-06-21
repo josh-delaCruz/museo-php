@@ -4,4 +4,4 @@
 
 <h3>Inserimento delle opere</h3>
 <p>DML per inserire la nuova opera</p>
-<p>insert into opera (id_opera, nome_opera, tipo_opera, id_artista) values (0, '{$nome}' , '{$tipo}', '{$id}')</p>
+<b>insert into opera (id_opera, nome_opera, tipo_opera, id_artista) values (0, '{$nome}' , '{$tipo}', '{$id}')</b>
